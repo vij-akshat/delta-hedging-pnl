@@ -29,7 +29,9 @@ This app implements a complete delta-hedging research framework: the Black-Schol
 
 Delta-hedge the book $\Pi = V - \Delta S$ with $\Delta = \partial_S V$. The $dW$ term — and with it the real-world drift $\mu$ — cancels, leaving a riskless book that must earn $r$. This gives the Black-Scholes PDE and, after a second-order expansion of one hedged step, the **gamma-theta identity**:
 
-$$\text{P\&L over one step} = \tfrac12\,\Gamma\,\big(\delta S^2 - \sigma^2 S^2\,\delta t\big) + O(\delta t^{3/2})$$
+```math
+\text{P\&L over one step} = \tfrac12\,\Gamma\,\big(\delta S^2 - \sigma^2 S^2\,\delta t\big) + O(\delta t^{3/2})
+```
 
 A delta-hedged long option is a pure bet on **realized versus implied variance**, paid through gamma. Discretely rebalanced at $N$ dates per year, the replication error is mean-zero noise whose standard deviation falls like $1/\sqrt{N}$ — exactly the discretization error of quadratic variation, seen through the option's gamma.
 
