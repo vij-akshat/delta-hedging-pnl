@@ -5,6 +5,9 @@
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-red)](https://streamlit.io)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-ff4b4b)](https://vij-akshat-delta-hedging-pnl-app-jdh8mv.streamlit.app)
+
+**[Open Live App](https://vij-akshat-delta-hedging-pnl-app-jdh8mv.streamlit.app)**
 
 ---
 
